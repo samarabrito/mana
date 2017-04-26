@@ -1,0 +1,43 @@
+/* Nav */
+
+.panel-nav {
+color:#fff;
+overflow: hidden;
+background-color:transparent;
+position: fixed; /* Set the navbar to fixed position */
+width: 100%; /* Full width */
+padding-bottom:-10px;
+padding-top:5px;
+padding-left:10px;
+padding-right:10px;
+margin-top:-40px;
+margin-left:-24px;
+
+
+}
+
+.panel-nav a {
+  text-decoration:none;
+  box-shadow:inset 0 -0px 0 #d69f99;
+  transition: box-shadow 0.30s;
+  color: inherit;
+  overflow:hidden;
+  font-size:15px;
+  padding:15px;
+  border:none;
+  background:#ccb5b7;
+  font-weight: 500;
+  padding-left:10px;
+  padding-right:10px;
+opacity: 0.75;
+-webkit-border-radius: 12px 12px 0px 0px;
+   
+}
+
+.panel-nav a:hover, a:active {
+  box-shadow:inset 0 -50px 0 #d69f99;
+  color:#603f3e;
+  font-weight: 600;
+  -webkit-border-radius: 12px 25px 0px 0px;
+ 
+}
